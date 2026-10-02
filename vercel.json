@@ -1,0 +1,18 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/pannotia-2",
+      "destination": "/work/pannotia/",
+      "permanent": true
+    },
+    {
+      "source": "/:slug(endotic|muscle-memory|zechstein-sea|skins|the-surface|high-tides|inertia|unwilling-spectator|twilight)",
+      "destination": "/work/:slug/",
+      "permanent": true
+    }
+  ]
+}
